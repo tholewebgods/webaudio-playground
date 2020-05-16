@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>WebAudio - Mute detect</title>
+	<style type="text/css">
+		html, body {
+			height: 100%;
+		}
+		body {
+			margin: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+		#state {
+			font-size: 40pt;
+			font-weight: bold;
+		}
+		#note {
+			margin-top: 20px;
+			color: #333;
+		}
+	</style>
+</head>
+<body>
+	<div id="state">?</div>
+	<div id="note">Demo that shows how to obtain an audio user media MediaStream and analyze it for being mute.</div>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
